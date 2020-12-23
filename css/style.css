@@ -13,6 +13,11 @@ body {
   color: white !important;
   transition: all 1s ease-in-out;
 }
+.dark_modes_input {
+  border-radius: 150px;
+  background-color: white !important;
+  transition: all 1s ease-in-out;
+}
 .dark_mode {
   outline: none;
   width: 100%;

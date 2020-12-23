@@ -21,4 +21,6 @@ inputs.forEach(input => {
 
 function dark_mode () {
 	document.body.classList.toggle('dark_modes');
+	document.getElementsByClassName('email')[0].classList.toggle('dark_modes_input');
+	document.getElementsByClassName('password')[0].classList.toggle('dark_modes_input');
 }
